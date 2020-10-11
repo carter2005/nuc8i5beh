@@ -1,5 +1,5 @@
 # nuc8i5beh
-clover/opencore uefi bootloader for Mojave, Catalina and latter
+clover/opencore uefi bootloader for Mojave, Catalina, Big Surf and latter
 
 # Bios
 
@@ -19,10 +19,10 @@ clover/opencore uefi bootloader for Mojave, Catalina and latter
 
 - Mojave 10.14.6 OK
 - Catalina 10.15.7 OK
-- BigSuf need verify after formal release
+- Big Suf OK
 - no update for clover branch
 
-# QA
+# QnA
 
 1. macbook pro 15.2 vs macmini 8,1
 
