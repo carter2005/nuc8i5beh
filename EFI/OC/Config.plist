@@ -268,7 +268,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BAClPg==</data>
+				<data>AAClPg==</data>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
 				<key>enable-hdmi20</key>
@@ -469,24 +469,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>FakePCIID.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/FakePCIID</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -640,11 +622,11 @@
 				<key>Auxiliary</key>
 				<false/>
 				<key>Comment</key>
-				<string></string>
+				<string>grub</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Name</key>
-				<string>grubx64</string>
+				<string>ubuntu</string>
 				<key>Path</key>
 				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,A1-02-B9-44-4A-44-1B-00)/HD(1,GPT,3FD7091D-2DB4-44D9-ACF6-9C2D5F2EA21A,0x800,0x96000)/\EFI\ubuntu\grubx64.efi</string>
 			</dict>
@@ -764,7 +746,7 @@
 			<key>MLB</key>
 			<string>C02808108XXXXXXXX</string>
 			<key>ProcessorType</key>
-			<integer>1793</integer>
+			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>ROM</key>
@@ -776,7 +758,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02XXXXXXXXX</string>
 			<key>SystemUUID</key>
-			<string>F6CCE6AE-BD00-4E98-B9A6-EC75XXXXXXX</string>
+			<string>F6CCE6AE-BD00-4E98-B9A6-XXXXXXXXXXX</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -809,7 +791,7 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
@@ -825,8 +807,9 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
+			<string>HfsPlus.efi</string>
+			<string>OpenCanopy.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -845,7 +828,7 @@
 			<key>PointerSupport</key>
 			<false/>
 			<key>PointerSupportMode</key>
-			<string>ASUS</string>
+			<string></string>
 			<key>TimerResolution</key>
 			<integer>50000</integer>
 		</dict>
