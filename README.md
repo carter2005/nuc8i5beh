@@ -1,5 +1,5 @@
 # nuc8i5beh
-clover/opencore uefi bootloader for Mojave, Catalina, Big Surf and latter
+clover/opencore uefi bootloader for Mojave, Catalina, Big Surf and big surf
 
 # Bios
 
