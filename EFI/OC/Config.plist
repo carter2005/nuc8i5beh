@@ -470,13 +470,13 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>0</integer>
+			<integer>192</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PickerVariant</key>
-			<string>Auto</string>
+			<string>Acidanthera\Sierra</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -517,9 +517,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Flavour</key>
-				<string>Auto</string>
+				<string>Ubuntu:Linux</string>
 				<key>Name</key>
-				<string>ubuntu</string>
+				<string>Ubuntu</string>
 				<key>Path</key>
 				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,A1-02-B9-44-4A-44-1B-00)/HD(1,GPT,3CC73509-A75D-432E-9059-20D555983742,0x800,0x96000)/\EFI\ubuntu\grubx64.efi</string>
 				<key>TextMode</key>
