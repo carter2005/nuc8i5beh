@@ -106,6 +106,7 @@ rm -rf ./EFI/OC/Drivers/*
 cp -r ./OpenCore/X64/EFI/OC/Drivers/OpenRuntime.efi ./EFI/OC/Drivers/
 #cp -r ./OpenCore/X64/EFI/OC/Drivers/HfsPlus.efi ./EFI/OC/Drivers/
 cp -r ./OpenCore/X64/EFI/OC/Drivers/OpenCanopy.efi ./EFI/OC/Drivers/
+cp -r ./OpenCore/X64/EFI/OC/Drivers/ResetNvramEntry.efi ./EFI/OC/Drivers/
 cp -r ./OcBinaryData/Drivers/ext4_x64.efi ./EFI/OC/Drivers/
 cp -r ./OpenCore/X64/EFI/OC/Drivers/OpenLinuxBoot.efi ./EFI/OC/Drivers/
 cp -r ./OpenCore/X64/EFI/OC/Drivers/OpenHfsPlus.efi ./EFI/OC/Drivers/
@@ -134,6 +135,7 @@ rm -rf ./EFI/OC/Resources/Image/Acidanthera/*
 # 复制tools
 cp -r ./OpenCore/X64/EFI/OC/Tools/OpenShell.efi ./EFI/OC/Tools/
 cp -r ./OpenCore/X64/EFI/OC/Tools/CleanNvram.efi ./EFI/OC/Tools/
+cp -r ./OpenCore/X64/EFI/OC/Tools/OpenControl.efi ./EFI/OC/Tools/
 
 # 生成 README.md
 cat > ./README.md << EOF
