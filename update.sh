@@ -79,7 +79,8 @@ cp -r ./OpenCore/X64/EFI/OC/Drivers/OpenRuntime.efi ./EFI/OC/Drivers/
 #cp -r ./OpenCore/X64/EFI/OC/Drivers/HfsPlus.efi ./EFI/OC/Drivers/
 cp -r ./OpenCore/X64/EFI/OC/Drivers/OpenCanopy.efi ./EFI/OC/Drivers/
 cp -r ./OpenCore/X64/EFI/OC/Drivers/ResetNvramEntry.efi ./EFI/OC/Drivers/
-cp -r ./OcBinaryData/Drivers/ext4_x64.efi ./EFI/OC/Drivers/
+cp -r ./OpenCore/X64/EFI/OC/Drivers/Ext4Dxe.efi ./EFI/OC/Drivers/
+#cp -r ./OcBinaryData/Drivers/ext4_x64.efi ./EFI/OC/Drivers/
 cp -r ./OpenCore/X64/EFI/OC/Drivers/OpenLinuxBoot.efi ./EFI/OC/Drivers/
 cp -r ./OpenCore/X64/EFI/OC/Drivers/OpenHfsPlus.efi ./EFI/OC/Drivers/
 
